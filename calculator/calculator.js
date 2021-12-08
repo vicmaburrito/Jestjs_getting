@@ -12,3 +12,5 @@ class Calculator {
         return args.reduce(((acc, val) => acc/val), base);
     }
 }
+
+module.exports = Calculator; 
